@@ -34,17 +34,6 @@
 <body id="body">
     <div id="mask"></div>
     
-<script type="text/javascript">$.getScript('/js/search.js',function(){searchFunc('/search.xml', 'local-search-input', 'local-search-result') })</script>
-<div class="search-dialog" id="local-search">
-    <div id="local-search-title">本地搜索</div>
-    <input id="local-search-input" placeholder="搜索文章" type="text" >
-    <hr>
-    <div id="local-search-result">
-        <div id="local-hits"></div>
-    </div>
-    <span class="search-close-button"><i class="fas fa-times"></i></span>
-</div>
-
     
 
   
@@ -52,8 +41,6 @@
         <div id="body-wrap">
             <nav class="site_nav" id="site_nav">
     <i id="openNav" class="fas fa-bars"></i>
-    
-    <i class="fas fa-search search-btn"></i>
     
     <div id="mobileNav">
         <div class="author-info">
@@ -69,9 +56,9 @@
         
             <li><a href="/">首页</a></li>
         
-            <li><a href="/tags">标签</a></li>
-        
             <li><a href="/categories">分类</a></li>
+        
+            <li><a href="/liuyan">留言板</a></li>
         
             <li><a href="/about">关于我</a></li>
         
@@ -81,9 +68,9 @@
     
         <li><a href="/">首页</a></li>
     
-        <li><a href="/tags">标签</a></li>
-    
         <li><a href="/categories">分类</a></li>
+    
+        <li><a href="/liuyan">留言板</a></li>
     
         <li><a href="/about">关于我</a></li>
     
@@ -116,12 +103,25 @@
 	
         <div class="post-item">
             <div class="post-title">
-                <h2><a href="/2021/03/11/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/">测试文章</a></h2>
+                <h2><a href="/2021/03/11/%E7%BD%91%E5%9D%80%E6%94%B6%E8%97%8F%EF%BC%882020%EF%BC%89/">网址收藏（2020）</a></h2>
             </div>
             <div class="post-description">
-                <p style="-webkit-line-clamp: 3">
+                <p style="-webkit-line-clamp: 2">
                     
-                    
+                    微信公众号开发工具
+
+
+网页链接
+简单介绍
+
+
+
+微信公众平台
+用于开发微信公众号
+
+
+135编译器
+用
                 </p>
             </div>
             
@@ -139,20 +139,6 @@
                 </div>
                 <!-- 标签 -->
                 
-                    <div class="post-tag">
-                        <span>
-                            <i class="fa fa-tag"></i>
-                             
-                            <span>
-                                <a href="tags/网站/">
-                                    <span>网站</span>
-                                </a>
-                                
-                            </span>
-                            
-                        </span>
-                    </div>
-                
                 <!-- 分类 -->
                 
                     <div class="post-categorie">
@@ -160,8 +146,8 @@
                             <i class="fas fa-folder-open"></i>
                              
                             <span>
-                                <a href="categories/测试/">
-                                    <span>测试</span>
+                                <a href="categories/收藏/">
+                                    <span>收藏</span>
                                 </a>
                                 
                             </span>
@@ -254,7 +240,7 @@
                     $.getScript("https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js",function(){ 
                     initData = {
                         el: '#tcomment',
-                        envId: 'xxxxxxxx',
+                        envId: 'lnh-7gp6rc9491977357',
                         region: 'ap-shanghai',
                         path: 'window.location.pathname',
                     }
